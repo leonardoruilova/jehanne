@@ -3,35 +3,28 @@
 
 # Jehanne
 
-Jehanne is a [simple][simplicity] operating system.
+Jehanne es un sistema operativo [simple][simplicity].
 
-Jehanne has noble ancestors:
+Jehanne tiene ancestros de alta alcurnia:
 
-- most of userland tools, a lot of wisdom and some kernel modules,
-  come from [9front][9front]
-- the kernel is a fork of Charles Forsyth's [Plan9-9k][plan9-9k]
-- most of the build system and some valuable piece of code come from [Harvey OS][harvey]
+- La mayor parte de las herramientas en espacio de usuario, mucho de su sapiencia y algunos modulos del kernel, todo ello viene desde [9front][9front]
+- El kernel es un fork de [Plan9-9k][plan9-9k], el cual fue programado por Charles Forsyth
+- La mayor parte del sistema de compilacion y mucho codigo valioso proviene de [Harvey OS][harvey]
 
-Still the project is named after a humble peasant,
-the famous French heretic [Joan of Arc][arc], because it diverges deeply
-from the design and conventions of its predecessors.
+Si bien el proyecto recibe su nombre de una humilde campesina, la famosa hereje Still the project is named after a humble peasant,la famosa hereje  [Joan of Arc][arc], porque es muy divergente de las convenciones de sus predecesores.
 
 ## Overview
 
-This is the main repository, used to build the system as a whole:
+Este es el repositorio principal, es de utilidad para compilar la totalidad del sistema y podrá ver el arbol de directorios a continuación:
 
-- [arch](./arch/) contains one folder for each
-  supported architecture, with specific C headers, libraries and executables
-  (note that by architecture we intend any kind of physical or virtual
-  machine that is able to run code, thus rc is actually an architecture)
-- [sys](./sys) is the system folder
-    * [include](./sys/include) contains portable C headers
-    * [lib](./sys/lib) contains data and scripts used by the
-      running system
-    * [man](./sys/man) contains manual pages
-    * [src](./sys/src) contains the sources of the system
-- [doc](./doc/) contains useful documentation for Jehanne
-  development
+- [arch](./arch/) Contiene un directorio para cada arquitectura, con sus respectivas cabeceras en el lenguaje de programacion C, con bibliotecas y ejecutables. Nosotros entendemos por arquitectura a cualquier tipo de maquina, tanto fisica como virtual en la que ud. pueda ejecutar codigo, por lo tanto rc es un tipo de Arq.
+- [sys](./sys) Es el directorio de sistema
+    * [include](./sys/include) Contiene cabeceras porables programadas en el lenguaje de programacion C 
+    * [lib](./sys/lib) Contiene datos y archivos de script usados por el sistema en ejecucion
+    * [man](./sys/man) Contiene paginas del manual
+    * [src](./sys/src) Contiene el codigo fuente del sistema
+- [doc](./doc/) Contiene documentacion de utilidad para el desarrollo del Sistema Operativo Jehanne
+  
     * [license](./doc/license/) contains detailed info
       about Jehanne [licenses][lic]
     * [hacking](./doc/hacking/) contains details about how
