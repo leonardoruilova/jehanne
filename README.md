@@ -3,9 +3,9 @@
 
 # Jehanne
 
-Jehanne es un sistema operativo [simple][simplicity].
+Jehanne es un Sistema Operativo [simple][simplicity].
 
-Jehanne tiene ancestros de alta alcurnia:
+El Sistema Operativo Jehanne tiene ancestros de alta alcurnia:
 
 - La mayor parte de las herramientas en espacio de usuario, mucho de su sapiencia y algunos modulos del kernel, todo ello viene desde [9front][9front]
 - El kernel es un fork de [Plan9-9k][plan9-9k], el cual fue programado por Charles Forsyth
@@ -27,12 +27,11 @@ Este es el repositorio principal, es de utilidad para compilar la totalidad del 
   
     * [license](./doc/license/) Contiene informacion detallada sobre las [licenses][lic] del Sistema Operativo Jehanne
     * [hacking](./doc/hacking/) Contiene detalles sobre la compilacion y la modificacion del Sistema Operativo Jehanne
-- [hacking](./hacking) contains the utilities used to
-  develop Jehanne
-- [qa](./qa) contains the regression tests
-- [mnt](./mnt) contains default mount targets
-- [usr](./usr) contains the users' folders
-- [pkgs](./pkgs) will contains the installed packages
+- [hacking](./hacking) Contiene las herramientas para el desarrollo del Sistema Operativo Jehanne
+- [qa](./qa) Contiene los tests de regresiones
+- [mnt](./mnt) Contiene los puntos de montaje 
+- [usr](./usr) Contiene los directorios de cada usuario
+- [pkgs](./pkgs) Contendra los paquetes instalados
 
 The running system also includes supplemental folders like `/lib`,
 `/cmd` and `/dev` that are bound during the boot as required.
