@@ -11,7 +11,7 @@ Jehanne tiene ancestros de alta alcurnia:
 - El kernel es un fork de [Plan9-9k][plan9-9k], el cual fue programado por Charles Forsyth
 - La mayor parte del sistema de compilacion y mucho codigo valioso proviene de [Harvey OS][harvey]
 
-Si bien el proyecto recibe su nombre de una humilde campesina, la famosa hereje Still the project is named after a humble peasant,la famosa hereje  [Joan of Arc][arc], porque es muy divergente de las convenciones de sus predecesores.
+Si bien el proyecto recibe su nombre de una humilde campesina, la famosa hereje [Joan of Arc][arc], porque es muy divergente de las convenciones de sus predecesores.
 
 ## Overview
 
@@ -25,10 +25,8 @@ Este es el repositorio principal, es de utilidad para compilar la totalidad del 
     * [src](./sys/src) Contiene el codigo fuente del sistema
 - [doc](./doc/) Contiene documentacion de utilidad para el desarrollo del Sistema Operativo Jehanne
   
-    * [license](./doc/license/) contains detailed info
-      about Jehanne [licenses][lic]
-    * [hacking](./doc/hacking/) contains details about how
-      to build and modify Jehanne
+    * [license](./doc/license/) Contiene informacion detallada sobre las [licenses][lic] del Sistema Operativo Jehanne
+    * [hacking](./doc/hacking/) Contiene detalles sobre la compilacion y la modificacion del Sistema Operativo Jehanne
 - [hacking](./hacking) contains the utilities used to
   develop Jehanne
 - [qa](./qa) contains the regression tests
