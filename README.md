@@ -33,18 +33,17 @@ Este es el repositorio principal, es de utilidad para compilar la totalidad del 
 - [usr](./usr) Contiene los directorios de cada usuario
 - [pkgs](./pkgs) Contendra los paquetes instalados
 
-The running system also includes supplemental folders like `/lib`,
-`/cmd` and `/dev` that are bound during the boot as required.
+El sistema en ejecución incluye directoris suplementarios como `/lib`,
+`/cmd` y `/dev` that are bound during the boot as required.
 
-## Build
+## Compilacion
 
-To build Jehanne and play with it, you need to have git, golang, qemu,
-gcc, binutils and bison installed.
-For example on Debian GNU/Linux you should be able to get going with
+Para compilar el codigo del Sistema Operativo Jehanne y jugar con el, sera necesario instalar GIT, el lenguaje de programacion GO y el emulador Qemu, el compilador GCC, Binsutils y Bison.
+Por ejemplo, si ud. utiliza Debian GNU/Linux será necesario que use la siguiente sintaxis de shelll scripting
 
 	sudo aptitude install git golang build-essential flex bison qemu-system
 
-After the repository clone, you can give a look with
+Despues de clonar el repositorio GIT, ud. puede continuar con la siguiente sintaxis
 
 	git submodule init                               # we have a lot of submodules
 	git submodule update --init --recursive --remote
@@ -55,25 +54,25 @@ After the repository clone, you can give a look with
 
 ## Hacking
 
-Jehanne is a work in progress.
-Forks and pull requests are welcome.
+El sistema Operativo Jehanne es una obra en construccion.
+Los Forks y pull requests son bienvenidos.
 
-In [doc/hacking](./doc/hacking/) you will find all you
-need to know about its principles, design and weirdness.
+En el directorio [doc/hacking](./doc/hacking/) ud. encontrara toda la informacion necesaria sobre los principios, el diseno y la excentricidad en nuestro proyecto.
 
-There's a lot of work to do, in every area of the system.
+Existe mucho trabajo por delante, en cada area de nuestro Sistema Operativo.
 
-To coordinate our efforts, we use the github issues.
-To discuss (and even debate) about the design and development of Jehanne
-we use the [JehanneOS mailing list][mailinglist]: please join and present
-yourself and your attitudes.
+Para coordinar nuestros esfuerzos, usaremos los issues de github.
+Para coordinar nuestro trabajo e incluso debatir sobre el diseno y el desarrollo del Sistema Operativo, nosotros utilizaremos la  [JehanneOS mailing list][mailinglist]: por favor inscribase y cuentenos quien es ud. y como puede colaborar con nosotros.
 
-[simplicity]: http://plato.stanford.edu/entries/simplicity/ "What is simplicity?"
+[simplicity]: http://plato.stanford.edu/entries/simplicity/ "Que es la simplicidad?"
 [harvey]: http://harvey-os.org "Harvey OS"
-[9front]: http://9front.org/ "THE PLAN FELL OFF"
-[plan9-9k]: https://bitbucket.org/forsyth/plan9-9k "Experimental 64-bit Plan 9 kernel"
+[9front]: http://9front.org/ "El plan ha fracasado"
+[plan9-9k]: https://bitbucket.org/forsyth/plan9-9k "Kernel Plan 9 experimental de 64-bit"
 [nix]: https://github.com/rminnich/nix-os
 [arc]: https://en.wikipedia.org/wiki/Joan_of_Arc "Jeanne d'Arc"
-[lic]: ./LICENSE.md "A summary of Jehanne licensing"
+[lic]: ./LICENSE.md "Un sumario acerca de la licencia del Sistema Operativo Jehanne"
 [mailinglist]: https://groups.google.com/forum/#!forum/jehanneos
+
+## Licencia de la traduccion
+Esta traduccion ha sido liberada a los comunes bajo licencia CC-BY-NC, su autor es Virgilio Leonardo Ruilova, su homepage es http://leonardoruilova.wordpress.com
 
