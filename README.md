@@ -13,7 +13,7 @@ El Sistema Operativo Jehanne tiene ancestros de alta alcurnia:
 
 Si bien el proyecto recibe su nombre de una humilde campesina, la famosa hereje [Joan of Arc][arc], porque es muy divergente de las convenciones de sus predecesores.
 
-## Overview
+## Descripcion
 
 Este es el repositorio principal, es de utilidad para compilar la totalidad del sistema y podrá ver el arbol de directorios a continuación:
 
